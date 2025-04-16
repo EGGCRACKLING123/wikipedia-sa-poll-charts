@@ -3,7 +3,7 @@ library(dplyr)
 library(lubridate)
 setwd("~/Documents/GitHub/wikipedia-sa-poll-charts") # replace with your own working directory
 polling2226 <- read.csv("polling2226.csv")
-spansize <- 0.6
+spansize <- 0.75
 
 election22 <- data.frame(c("LNP","ALP","GRN","OTH"), c(35.67,39.97,9.12,15.64))
 #election25 <- data.frame(c("LNP","ALP","GRN","OTH"), c())
